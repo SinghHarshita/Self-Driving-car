@@ -15,6 +15,10 @@ Through the internet the brain of the car, Raspberry Pi, receives the command â€
 
 Based on the signals received from Raspberry Pi, Arduino Uno sends signals to the H Bridge which is connected to it. Based on these signals, the polarity of the H Bridge is decided. The H Bridge has four motors connected to it. These motors control the wheels of the car. According to the polarity of the H Bridge, the wheels move forward, backward, left or right i.e. the wheels are steered accordingly.
 
+The image below shows the working of the project :
+
+<img title="Workflow of the System" src="working.png" alt="Workflow of the System"/>
+
 #### Hardware Requirements
 * Raspberry Pi 3B+
 * Raspberry Pi 3B+ Clear Case
